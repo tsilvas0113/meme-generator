@@ -3,7 +3,7 @@ import React from "react";
 function Meme () {
     return (
         <main className="meme">
-            <form className="form">
+            <div className="form">
                 <input 
                     type='text'
                     placeholder="Top text"
@@ -15,7 +15,7 @@ function Meme () {
                     className="form-input" 
                 />
                 <button>Get a new meme image 🖼</button>
-            </form>
+            </div>
         </main>
     )
 }
