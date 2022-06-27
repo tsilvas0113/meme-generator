@@ -22,8 +22,8 @@ function Meme () {
                     className="form-input" 
                 />
                 <button onClick={getMemeImage}>Get a new meme image 🖼</button>
-                <img className="meme-image" src={memeImage} alt='' />
             </div>
+            <img className="meme-image" src={memeImage} alt='' />
         </main>
     )
 }
