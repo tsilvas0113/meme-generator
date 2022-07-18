@@ -248,3 +248,45 @@ main {
     width: 80%;
   }
 }
+
+@media (min-width: 2000px) {
+  .troll {
+    width: 50px;
+    height: 45px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .course {
+    font-size: 1.7rem;
+  }
+
+  .form-input {
+    font-size: 1.5rem;
+  }
+
+  .form > button {
+    height: 80px;
+    font-size: 2.4rem;
+  }
+  
+  .meme--text {
+    font-size: 50px;
+    width: 30%;
+  }
+
+  .top {
+    margin-top: 22px;
+  }
+  
+  .meme-image {
+    width: 850px;
+    height: 700px;
+  }
+
+  .meme {
+    margin-top: 50px;
+  }
+}
